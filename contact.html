@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanessa Patterson
-        <link rel="shortcut icon" type="image/png" href="./assets/favicon.png">
     </title>
 
     <!--Link to bootstrap css-->
@@ -22,6 +21,8 @@
 
     <!--Link to assets style sheet-->
     <link rel="stylesheet" href="./assets/style.css">
+    <!--Link to javascript file-->
+    <script type="text/javascript" src="contactfrom.js"></script>
 </head>
 
 <body>
@@ -64,7 +65,6 @@
                                 <!--Section heading-->
                                 <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
                                 <?php include "mail.php";?>
-                                <a href="mailto:vpatt1031@gmail.com">Mail Me</a>
                                 <!--Section description-->
                                 <p class="text-center w-responsive mx-auto mb-5">Please do not hesitate to contact me for more information.</p>
 
@@ -129,8 +129,7 @@
                                         </form>
 
                                         <div class="text-center text-md-left">
-                                            <a class="btn btn-primary"
-                                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                                            <a class="btn btn-primary" onclick="validateForm();">Send</a>
                                         </div>
                                         <div class="status"></div>
                                     </div>
@@ -140,11 +139,11 @@
                                     <div class="col-md-3 text-center">
                                         <ul class="list-unstyled mb-0">
                                             <li><i class="fa fa-map-marker fa-2x"></i>
-                                                <p>Charlotte, NC, USA</p>
+                                                <p>Charlotte, NC USA</p>
                                             </li>
 
                                             <li><i class="fa fa-phone fa-2x"></i>
-                                                <p>910 751 1232</p>
+                                                <p>910 751 xxxx</p>
                                             </li>
 
                                             <li><i class="fa fa-envelope fa-2x"></i>
@@ -152,12 +151,8 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <!--Grid column-->
-
                                 </div>
-
                             </section>
-                            <!--Section: Contact v.2-->
                         </div>
                     </div>
                 </div>
