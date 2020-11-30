@@ -14,3 +14,55 @@ body {
 border: 10px  solid aliceblue;
 margin: 10px;
 }
+/*Start styling for footer*/
+li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+li:first-child
+{
+  margin:0;
+}
+
+footer
+{
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+/*.content
+{
+  height: 50vh;
+  background-color: lightgray;
+}
+
+.container
+{
+  background-color: beige;*/
+}
+
+.copyright,  .impressum
+{
+  text-align: center;
+}
+
+.logo
+{
+  height: 8vh;
+}
+
+@media (max-width: 768px) 
+{
+  li
+  {
+    margin-left: 0;
+    margin-bottom: 1vh;
+  }
+  
+  .sozial
+  {
+    margin-bottom: 1vh;
+  }
+}
