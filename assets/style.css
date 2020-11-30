@@ -17,6 +17,9 @@ margin: 10px;
     height: 15vw;
     object-fit: cover;
 }
+.embed-responsive-item .card-img-top {
+    object-fit: cover;
+}
 
 /*.projectimg {
     height: 200px;
