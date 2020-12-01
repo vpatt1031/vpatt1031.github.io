@@ -17,8 +17,8 @@ margin: 10px;
 /*I experimented with styling the images inside the cards to be the same size but the image quality was lost on the smaller screen.
 /*.card-img-top {
     height: 400px;
-    width: 100%;*/
-}
+    width: 100%;
+}*/
 /*Start styling for footer*/
 /*Style the social media icons*/
 li
@@ -48,6 +48,7 @@ footer
   height: 8vh;
 }
 /*Styles repsonsiveness of footer and icons*/
+
 @media (max-width: 768px) 
 {
   li
