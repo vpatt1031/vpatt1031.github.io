@@ -6,7 +6,6 @@ This project is a responsive portfolio of the applications I've produced thus fa
 https://vpatt1031.github.io/
 
 # Screen Shot of Project
-screenshot-vpatt1031-github-io-index-html-1606797208056
 ![alttag](assets/screenshot-vpatt1031-github-io-index-html-1606797208056.png "screenshot of portfolio project")
 
 # Screen Shots of HTML Validator
