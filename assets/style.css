@@ -29,8 +29,8 @@ li:first-child
 /*Styles footer padding from bottom of the page*/
 footer
 {
-  padding-top: 5vh;
-  padding-bottom: 2vh;
+  padding-top: 12vh;
+  padding-bottom: 5vh;
 }
 /*Styles position of copyright text and logo*/
 .copyright  
