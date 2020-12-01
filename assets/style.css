@@ -15,6 +15,7 @@ border: 10px  solid aliceblue;
 margin: 10px;
 }
 /*Start styling for footer*/
+/*Style the social media icons*/
 li
 {
   list-style-type: none;
@@ -25,25 +26,14 @@ li:first-child
 {
   margin:0;
 }
-
+/*Styles footer padding from bottom of the page*/
 footer
 {
   padding-top: 5vh;
   padding-bottom: 2vh;
 }
-
-/*.content
-{
-  height: 50vh;
-  background-color: lightgray;
-}
-
-.container
-{
-  background-color: beige;*/
-}
-
-.copyright,  .impressum
+/*Styles position of copyright text and logo*/
+.copyright  
 {
   text-align: center;
 }
@@ -52,7 +42,7 @@ footer
 {
   height: 8vh;
 }
-
+/*Styles repsonsiveness of footer and icons*/
 @media (max-width: 768px) 
 {
   li
@@ -60,7 +50,7 @@ footer
     margin-left: 0;
     margin-bottom: 1vh;
   }
-  
+  /*Styles social media icons*/
   .sozial
   {
     margin-bottom: 1vh;
